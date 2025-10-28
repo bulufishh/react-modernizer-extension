@@ -64,8 +64,21 @@ npm install
 
 3)Set up Environment Variables
 Create a .env file in the root directory:
+```bash
 GEMINI_API_KEY=your_google_api_key_here
 PORT=3000
+```
 
 4) Start the Backend
-bash node server.mjs
+```bash
+ node server.mjs
+```
+You should see:
+Server running on http://localhost:3000
+
+5)Load the Chrome Extension
+  1.Open Google Chrome
+  2.Go to chrome://extensions
+  3.Enable Developer Mode
+  4.Click Load unpacked
+  5.Select the extension/ folder in this project
