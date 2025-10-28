@@ -29,9 +29,8 @@ Manual migration to modern React 18+ patterns (functional components, hooks, and
 - Summarises legacy React code  
 - Detects outdated patterns (e.g., `componentWillMount`, class state)  
 - Converts to modern Hooks & TypeScript (.tsx)  
-- Generates migration notes with inline documentation  
-- Side-by-side Monaco editor diff UI  
-- One-click export of modernised files  
+- Generates migration notes
+- One-click copy of modernised code  
 
 ---
 
@@ -81,4 +80,4 @@ Server running on http://localhost:3000
  2.Go to chrome://extensions <br>
  3.Enable Developer Mode <br>
  4.Click Load unpacked <br>
- 5.Select the extension/ folder in this project
+ 5.Select the extension folder in this project
