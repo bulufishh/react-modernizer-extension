@@ -2,8 +2,6 @@
 
 > **Modernise Legacy React Code Instantly Using Google Gemini AI**
 
-![React Modernizer Banner](https://via.placeholder.com/900x300?text=React+Modernizer+by+Ying+Qian)
-
 ---
 
 ## Overview
