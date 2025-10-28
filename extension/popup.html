@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React Modernizer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    
+    <header class="header">
+      <div class="header-content">
+        <div class="logo">
+          <i class="fab fa-react"></i>
+          <h1>React Modernizer</h1>
+        </div>
+        <p class="subtitle">Convert class components to functional</p>
+      </div>
+    </header>
+
+   
+    <main class="main-content">
+      <section class="input-section">
+        <div class="input-header">
+          <h2>Input Legacy Code</h2>
+          <div class="input-actions">
+            <button class="btn-icon" id="clearBtn" title="Clear input">
+              <i class="fas fa-trash"></i>
+            </button>
+            <button class="btn-icon" id="exampleBtn" title="Load example">
+              <i class="fas fa-code"></i>
+            </button>
+          </div>
+        </div>
+        <div class="input-container">
+          <textarea id="codeInput" placeholder="Paste your legacy React class component code here..."></textarea>
+          <div class="input-info">
+            <span id="charCount">Characters: 0</span>
+            <span id="lineCount">Lines: 0</span>
+          </div>
+        </div>
+        <button id="convertBtn" class="btn-primary">
+          <i class="fas fa-sync-alt"></i>
+          Convert to Modern React
+        </button>
+      </section>
+
+      <div id="loader" class="loader hidden">
+        <div class="loader-spinner"></div>
+        <p>Converting your code...</p>
+      </div>
+
+      <section class="comparison-section">
+        <div class="code-panel">
+          <div class="panel-header">
+            <h3>Before</h3>
+            <span class="badge badge-legacy">Legacy</span>
+          </div>
+          <div class="code-container">
+            <pre id="legacyCode" class="code-block"><code>No code loaded...</code></pre>
+            <button class="btn-copy" data-target="legacyCode" title="Copy code">
+              <i class="far fa-copy"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="code-panel">
+          <div class="panel-header">
+            <h3>After</h3>
+            <span class="badge badge-modern">Modern</span>
+          </div>
+          <div class="code-container">
+            <pre id="modernCode" class="code-block"><code>Conversion will appear here...</code></pre>
+            <button class="btn-copy" data-target="modernCode" title="Copy code">
+              <i class="far fa-copy"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="notes-section">
+        <div class="section-header">
+          <h2>Migration Notes</h2>
+          <span class="notes-count" id="notesCount">0 items</span>
+        </div>
+        <div id="migrationNotes" class="notes-content">
+          <div class="empty-state">
+            <i class="fas fa-lightbulb"></i>
+            <p>No notes yet. Convert some code to see migration notes.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="stats">
+          <i class="fas fa-chart-line"></i>
+          <span id="stats">Conversions: 0</span>
+        </div>
+        <div class="privacy">
+          <i class="fas fa-shield-alt"></i>
+          <span>Local processing only</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
