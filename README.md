@@ -72,7 +72,9 @@ PORT=3000
  node server.mjs
 ```
 You should see:
+```bash
 Server running on http://localhost:3000
+```
 
 5)Load the Chrome Extension
   1.Open Google Chrome
