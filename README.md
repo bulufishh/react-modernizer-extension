@@ -76,7 +76,7 @@ You should see:
 Server running on http://localhost:3000
 ```
 
-5)Load the Chrome Extension
+5)Load the Chrome Extension<br>
  1.Open Google Chrome <br>
  2.Go to chrome://extensions <br>
  3.Enable Developer Mode <br>
