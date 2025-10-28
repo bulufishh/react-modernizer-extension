@@ -77,8 +77,8 @@ Server running on http://localhost:3000
 ```
 
 5)Load the Chrome Extension
-  \n 1.Open Google Chrome
-  \n 2.Go to chrome://extensions
-  \n 3.Enable Developer Mode
-  \n 4.Click Load unpacked
-  \n 5.Select the extension/ folder in this project
+  `n` 1.Open Google Chrome
+  `n` 2.Go to chrome://extensions
+  `n` 3.Enable Developer Mode
+  `n` 4.Click Load unpacked
+  `n` 5.Select the extension/ folder in this project
